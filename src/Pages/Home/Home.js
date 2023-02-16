@@ -1,9 +1,10 @@
 import React from 'react';
+import Toggle from './Toggle/Toggle';
 
 const Home = () => {
   return (
     <div>
-      <h2>job task</h2>
+       <Toggle></Toggle>
     </div>
   );
 };
