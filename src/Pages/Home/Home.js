@@ -2,6 +2,7 @@ import React from 'react';
 import ExperiencedJobs from './ExperiencedJobs/ExperiencedJobs';
 import FresherJobs from './FresherJobs/FresherJobs';
 import Toggle from './Toggle/Toggle';
+import TopItCompany from './TopItCompany/TopItCompany';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
        <Toggle></Toggle>
        <FresherJobs></FresherJobs>
        <ExperiencedJobs></ExperiencedJobs>
+       <TopItCompany></TopItCompany>
     </div>
   );
 };

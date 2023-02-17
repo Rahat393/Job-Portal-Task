@@ -42,7 +42,7 @@ const FresherJobs = () => {
   ]
   return (
     <div className='my-7'>
-      <h2 className='text-3xl font-semibold'>Jobs For Freshers</h2>
+      <h2 className='text-3xl font-semibold '>Jobs For Freshers</h2>
       <div className='grid mt-8 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         {
           jobsInfo.map(jobInfo => <JobCard
