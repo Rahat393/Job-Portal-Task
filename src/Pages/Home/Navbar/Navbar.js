@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 const Navbar = () => {
   const menuItem = <React.Fragment>
@@ -28,7 +29,7 @@ const Navbar = () => {
                             {menuItem}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case text-xl">Job Portal</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-4xl font-bold">Job  <span className='title-style ml-2'> Portal</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

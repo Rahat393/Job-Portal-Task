@@ -1,11 +1,11 @@
 import React from 'react';
-import './JobCard.css'
 
-const JobCard = ({jobInfo}) => {
+const ExJobCard = ({jobInfo}) => {
   const {position_name, job_location, company_name} = jobInfo
+
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+       <div className="card w-96 bg-base-100 shadow-xl">
   <div className="card-body">
     <h2 className="card-title"> {position_name}</h2>
     <p> Job location: {job_location}</p>
@@ -21,4 +21,4 @@ const JobCard = ({jobInfo}) => {
   );
 };
 
-export default JobCard;
+export default ExJobCard;
