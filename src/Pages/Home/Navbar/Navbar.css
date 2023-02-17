@@ -1,3 +1,7 @@
 .title-style {
   color: #f36f21;
 }
+
+li:hover {
+  background-color: #f36f21;
+}
